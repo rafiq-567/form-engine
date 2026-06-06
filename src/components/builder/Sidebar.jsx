@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { v4 as uuid } from "uuid";
@@ -51,6 +49,7 @@ const sections = [
       { type: "tooltip",      label: "Tooltip",     icon: Info,             color: "text-amber-500",  bg: "bg-amber-50" },
       { type: "typography",   label: "Typogra...",  icon: Type,             color: "text-violet-500", bg: "bg-violet-50" },
       { type: "table",        label: "Table",       icon: Table,            color: "text-teal-500",   bg: "bg-teal-50" },
+      { type: "map", label: "Map", icon: Navigation, color: "text-green-600", bg: "bg-green-50" },
     ],
   },
   {

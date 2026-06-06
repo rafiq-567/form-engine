@@ -31,27 +31,6 @@ import TooltipField from "../fields/TooltipField";
 import TypographyField from "../fields/TypographyField";
 import UploadField from "../fields/UploadField";
 
-
-// Templates
-// import EmbedField from "../components/fields/EmbedField";
-// import SlotField from "../components/fields/SlotField";
-// import TestField from "../components/fields/TestField";
-
-// // Structure
-// import RepeaterField from "../components/fields/RepeaterField";
-
-// // Modal
-// import ModalField from "../components/fields/ModalField";
-
-// // Typography
-// import HeadingField from "../components/fields/HeadingField";
-// import ParagraphField from "../components/fields/ParagraphField";
-// // import BlockquoteField from "../components/fields/BlockquoteField";
-// import CodeBlockField from "../components/fields/CodeBlockField";
-// import OrderedListField from "../components/fields/OrderedListField";
-// import UnorderedListField from "../components/fields/UnorderedListField";
-// import DividerField from "../components/fields/DividerField";
-// import CaptionField from "../components/fields/CaptionField";
 import BlockquoteField from "../fields/BlockquoteField";
 import EmbedField from "../fields/EmbedField";
 import SlotField from "../fields/SlotField";
@@ -73,6 +52,8 @@ import AssignedByStateField from "../fields/AssignedByStateField";
 import CreatedByYouField from "../fields/CreatedByYouField";
 import AssignedToYouField from "../fields/AssignedToYouField";
 import StatsBarField from "../fields/StatsBarField";
+import MapField from "../fields/MapField";
+// import MapField from "../components/fields/MapField";
 
 export const fieldRegistry = {
   // Inputs
@@ -145,4 +126,6 @@ assignedByPriority: AssignedByPriorityField,
 issueActivities: IssueActivitiesField,
 recentProjects: RecentProjectsField,
 collaborators: CollaboratorsField,
+
+map: MapField,
 };
